@@ -14,13 +14,8 @@ defmodule PhoenixThoughtbot.Router do
   end
 
   scope "/", PhoenixThoughtbot do
-    pipe_through :browser # Use the default browser stack
+    pipe_through :api
 
-    get "/", PageController, :index
+    resources "/contacts", ContactController
   end
-
-  # Other scopes may use custom stacks.
-  # scope "/api", PhoenixThoughtbot do
-  #   pipe_through :api
-  # end
 end
