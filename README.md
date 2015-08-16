@@ -1,5 +1,8 @@
 # PhoenixThoughtbot
 
+Following a Thoughtbot blog entry at:
+(https://robots.thoughtbot.com/testing-a-phoenix-elixir-json-api)
+
 To start your Phoenix app:
 
   1. Install dependencies with `mix deps.get`
